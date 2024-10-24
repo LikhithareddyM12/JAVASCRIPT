@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Weekdays Table</h1>
+
+  <table border="1px">
+      <tr>
+        <td>Number</td>
+        <td>Weekday</td>
+      </tr> 
+  
+    <script>
+        var days=['Monday','Tuesday','Wednesday','thursday','Friday','Saturday'];
+        for(let day in days){
+           // console.log(day)
+           // console.log(days(day))
+           // document.write(day+"<br>")
+           document.write("<tr><td>"+day+"</td><td>"+days[day]+"</td></tr>")
+        }
+        </script>
+  </table>
+</body>
+</html>
